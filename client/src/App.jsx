@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className=" font-grotesk text-lg font-medium">Heading 3</p>
+      <p className="font-limelight font-normal text-xxl ">H1 Lime</p>
+      <p className="font-grotesk font-bold text-xxl">H1 Bold</p>
+      <p className="font-grotesk font-bold text-xl">H2 Bold</p>
+      <p className="font-grotesk font-bold text-lg">H3 Bold</p>
+      <p className="font-grotesk font-bold text-md">H4 Bold</p>
+      <p className="font-grotesk font-light text-lg">H3 Thin</p>
+      <p className="font-grotesk font-medium text-lg">H3 Bold Thin</p>
+
+      <p className="font-grotesk font-normal text-body">Body</p>
+      <p className="font-grotesk font-bold text-body">Body Bold</p>
+      <p className="font-grotesk font-light text-body">Body Thin</p>
+      <p className="font-grotesk font-medium text-body">Body Bold Thin</p>
+
+      <p className="font-grotesk font-normal text-label">Labels</p>
+      <p className="font-grotesk font-bold text-label">Labels bold</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
