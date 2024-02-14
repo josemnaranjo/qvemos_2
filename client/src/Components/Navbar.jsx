@@ -4,8 +4,10 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-primary font-grotesk flex items-center justify-between px-[8px] shadow-md">
-        {" "}
-        <span className="font-bold text-lg text-secondary"> <Link to={"/"}>Q-vemos</Link></span>
+        <span className="font-bold text-lg text-secondary">
+          {" "}
+          <Link to={"/"}>Q-vemos</Link>
+        </span>
 
         <div className="flex items-center gap-[27px]">
           <span className="font-normal text-label text-secondary">
