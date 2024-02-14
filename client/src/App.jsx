@@ -12,6 +12,7 @@ import Evaluacion from "./Views/Evaluacion.jsx";
 import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/sala/:id/resultados" element={<Resultados />} />
         <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
