@@ -1,4 +1,4 @@
-const VotaciN = () => {
+const Votacion = () => {
   return (
     <div>
       <h1>Votación</h1>
@@ -6,4 +6,4 @@ const VotaciN = () => {
   );
 };
 
-export default VotaciN;
+export default Votacion;

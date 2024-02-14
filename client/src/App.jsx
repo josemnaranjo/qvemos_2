@@ -1,22 +1,33 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./Views/Home.jsx";
+import CrearSala from "./Views/CrearSala.jsx";
+import UnirseASala from "./Views/UnirseASala.jsx";
+import EntregaCodigoDeSala from "./Views/EntregaCodigoDeSala.jsx";
+import Recomendaciones from "./Views/Recomendaciones.jsx";
+//* quizás esta pagina es necesaria, se probará conditional rendering en página de votación import EsperaRecomendaciones from "./Views/EsperaRecomendaciones.jsx";
+import Votacion from "./Views/Votacion.jsx";
+import EsperaVotación from "./Views/EsperaVotacion.jsx";
+import Resultados from "./Views/Resultados.jsx";
+import Evaluacion from "./Views/Evaluacion.jsx";
+import Login from "./Views/Login.jsx";
+import Registrarse from "./Views/Registrarse.jsx";
+
 function App() {
   return (
     <>
-      <p className=" font-grotesk text-lg font-medium">Heading 3</p>
-      <p className="font-limelight font-normal text-xxl ">H1 Lime</p>
-      <p className="font-grotesk font-bold text-xxl">H1 Bold</p>
-      <p className="font-grotesk font-bold text-xl">H2 Bold</p>
-      <p className="font-grotesk font-bold text-lg">H3 Bold</p>
-      <p className="font-grotesk font-bold text-md">H4 Bold</p>
-      <p className="font-grotesk font-light text-lg">H3 Thin</p>
-      <p className="font-grotesk font-medium text-lg">H3 Bold Thin</p>
-
-      <p className="font-grotesk font-normal text-body">Body</p>
-      <p className="font-grotesk font-bold text-body">Body Bold</p>
-      <p className="font-grotesk font-light text-body">Body Thin</p>
-      <p className="font-grotesk font-medium text-body">Body Bold Thin</p>
-
-      <p className="font-grotesk font-normal text-label">Labels</p>
-      <p className="font-grotesk font-bold text-label">Labels bold</p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registrarse" element={<Registrarse />} />
+        <Route path="/crear-sala" element={<CrearSala />} />
+        <Route path="/unirse-a-sala" element={<UnirseASala />} />
+        <Route path="/anfitrion-entrega-codigo-de-sala" element={<EntregaCodigoDeSala />} />
+        <Route path="/sala/:id/recomendaciones" element={<Recomendaciones />} />
+        <Route path="/sala/:id/votacion" element={<Votacion />} />
+        <Route path="/sala/:id/espera-votacion" element={<EsperaVotación />} />
+        <Route path="/sala/:id/resultados" element={<Resultados />} />
+        <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
+      </Routes>
     </>
   );
 }
