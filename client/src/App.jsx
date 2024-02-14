@@ -13,6 +13,7 @@ import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Footer from "./Components/Footer";
+import Reglas from "./Views/Reglas.jsx";
 
 function App() {
   return (
@@ -33,8 +34,9 @@ function App() {
         <Route path="/sala/:id/espera-votacion" element={<EsperaVotación />} />
         <Route path="/sala/:id/resultados" element={<Resultados />} />
         <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
+        <Route path="/reglamento" element={<Reglas />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }
