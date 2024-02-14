@@ -13,6 +13,7 @@ dist
 dist-ssr
 *.local
 font.txt
+db.json
 
 # Editor directories and files
 .vscode/*

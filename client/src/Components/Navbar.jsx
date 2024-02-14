@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <nav className="bg-primary font-grotesk flex items-center justify-between px-[8px] shadow-md">
         <span className="font-bold text-lg text-secondary">
           {" "}
@@ -18,7 +18,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
