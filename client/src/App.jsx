@@ -11,17 +11,22 @@ import Resultados from "./Views/Resultados.jsx";
 import Evaluacion from "./Views/Evaluacion.jsx";
 import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
+import Navbar from "./Components/Navbar.jsx";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registrarse" element={<Registrarse />} />
         <Route path="/crear-sala" element={<CrearSala />} />
         <Route path="/unirse-a-sala" element={<UnirseASala />} />
-        <Route path="/anfitrion-entrega-codigo-de-sala" element={<EntregaCodigoDeSala />} />
+        <Route
+          path="/anfitrion-entrega-codigo-de-sala"
+          element={<EntregaCodigoDeSala />}
+        />
         <Route path="/sala/:id/recomendaciones" element={<Recomendaciones />} />
         <Route path="/sala/:id/votacion" element={<Votacion />} />
         <Route path="/sala/:id/espera-votacion" element={<EsperaVotación />} />
