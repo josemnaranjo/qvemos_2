@@ -12,6 +12,7 @@ build
 dist
 dist-ssr
 *.local
+font.txt
 
 # Editor directories and files
 .vscode/*
