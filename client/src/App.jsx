@@ -12,7 +12,6 @@ import Evaluacion from "./Views/Evaluacion.jsx";
 import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
-import Footer from "./Components/Footer";
 import Reglas from "./Views/Reglas.jsx";
 
 function App() {
@@ -36,7 +35,9 @@ function App() {
         <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
         <Route path="/reglamento" element={<Reglas />} />
       </Routes>
-      <Footer />
+      <footer className="font-grotesk font-normal text-label absolute bottom-0 inset-x-44">
+        <span className="text-secondary">footer</span>
+      </footer>
     </>
   );
 }
