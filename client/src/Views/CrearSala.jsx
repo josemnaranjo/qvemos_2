@@ -9,7 +9,7 @@ const CrearSala = () => {
   return (
     <main className="flex flex-col items-center">
       <h1 className="w-[342px] h-[72px] mt-[10px] font-grotesk font-bold text-lg text-tertiary text-center flex flex-col">
-        ¡BIENVENIDO/A A <span>Q-VEMOS!</span>
+        ¡BIENVENIDO/A <span>ANFITRION 👑!</span> 
       </h1>
       <p className=" mt-[21px] w-[342px] font-grotesk font-light text-tertiary text-body text-center flex flex-col gap-y-2">
         <span>
@@ -36,7 +36,7 @@ const CrearSala = () => {
             <Field
               name="genre"
               as="select"
-              className=" w-[183px] h-[26px] rounded-xl px-1"
+              className=" w-[183px] h-[26px] rounded-xl px-2 font-grotesk font-bold text-label "
             >
               <option value="action">Accion </option>
               <option value="adventure">Aventura</option>
@@ -66,7 +66,7 @@ const CrearSala = () => {
             <Field
               name="nombreSala"
               placeholder="algo simple..."
-              className="w-[183px] h-[26px] rounded-xl px-2"
+              className="w-[183px] h-[26px] rounded-xl px-3 font-grotesk font-bold text-label"
             />
             <button
               type="submit"
