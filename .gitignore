@@ -12,7 +12,7 @@ build
 dist
 dist-ssr
 *.local
-font.txt
+*.txt
 db.json
 
 # Editor directories and files
