@@ -1,6 +1,8 @@
 import { Formik, Form, Field } from "formik";
+import { useNavigate } from "react-router-dom";
 
 const CrearSala = () => {
+  const navigate = useNavigate();
   const handleSubmit = (values) => {
     console.log(values);
   };
@@ -20,6 +22,7 @@ const CrearSala = () => {
         initialValues={{ genre: "", nombreSala: "" }}
         onSubmit={(values) => {
           handleSubmit(values);
+          navigate("/anfitrion-entrega-codigo-de-sala");
         }}
       >
         <Form>
