@@ -52,7 +52,7 @@ const CrearSala = () => {
               <option value="horror">Horror</option>
               <option value="mistery">Misterio</option>
               <option value="romance">Romance</option>
-              <option value="sience fiction">Ciencia Ficción</option>
+              <option value="science fiction">Ciencia Ficción</option>
               <option value="thriller">Thriller</option>
               <option value="war">Guerra</option>
               <option value="western">Western</option>
