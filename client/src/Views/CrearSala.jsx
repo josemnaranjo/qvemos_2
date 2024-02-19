@@ -1,7 +1,7 @@
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
 
-const CrearSala = () => {
+const  CrearSala = () => {
   const navigate = useNavigate();
   const handleSubmit = (values) => {
     const uuid = self.crypto.randomUUID();
