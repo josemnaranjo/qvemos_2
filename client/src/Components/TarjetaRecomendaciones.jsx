@@ -3,7 +3,7 @@ const TarjetaRecomendaciones = ({ title, rating, imgSrc, genre }) => {
     <>
       <div
         className="w-[302px] h-[108px] flex flex-col items-center justify-center rounded-xl"
-        style={{ backgroundImage: `url(${imgSrc})`}}
+        style={{ backgroundImage: `url(${imgSrc})` }}
       >
         <span className="font-grotesk font-bold text-xl text-primary font-outline-2">
           {title}
