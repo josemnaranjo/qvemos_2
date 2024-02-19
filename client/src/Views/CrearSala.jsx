@@ -4,12 +4,15 @@ import { useNavigate } from "react-router-dom";
 const CrearSala = () => {
   const navigate = useNavigate();
   const handleSubmit = (values) => {
-    console.log(values);
+    const uuid = self.crypto.randomUUID();
+    const shortUuid = uuid.slice(2, 5);
+    const newValues = { ...values, nombreSala: values.nombreSala + shortUuid };
+    console.log(newValues);
   };
   return (
     <main className="flex flex-col items-center">
       <h1 className="w-[342px] h-[72px] mt-[10px] font-grotesk font-bold text-lg text-tertiary text-center flex flex-col">
-        ¡BIENVENIDO/A <span>ANFITRION 👑!</span> 
+        ¡BIENVENIDO/A <span>ANFITRION 👑!</span>
       </h1>
       <p className=" mt-[21px] w-[342px] font-grotesk font-light text-tertiary text-body text-center flex flex-col gap-y-2">
         <span>
