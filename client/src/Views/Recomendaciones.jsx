@@ -70,7 +70,7 @@ const Recomendaciones = () => {
         ¿No recuerdas el nombre de la película?
       </p>
       <p className="font-grotesk font-bold text-body text-secondary">
-        usa el buscador
+        usa el buscador 🔍
       </p>
     </main>
   );
