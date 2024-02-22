@@ -35,9 +35,6 @@ function App() {
         <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
         <Route path="/reglamento" element={<Reglas />} />
       </Routes>
-      <footer className="font-grotesk font-normal text-label absolute bottom-0 inset-x-44">
-        <span className="text-secondary">footer</span>
-      </footer>
     </>
   );
 }
