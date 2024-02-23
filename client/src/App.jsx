@@ -13,7 +13,7 @@ import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Reglas from "./Views/Reglas.jsx";
-import MovieInfo from "./Components/MovieInfo.jsx";
+// import MovieInfo from "./Components/MovieInfo.jsx";
 
 function App() {
   return (
