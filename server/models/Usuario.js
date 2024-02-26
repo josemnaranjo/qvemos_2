@@ -12,6 +12,7 @@ export const Usuario = sequelize.define(
     },
     nombre: {
       type: DataTypes.STRING,
+      unique: true,
       validate: {
         isAlpha: { msg: "El nombre solo puede contener letras" },
         notEmpty: true,
