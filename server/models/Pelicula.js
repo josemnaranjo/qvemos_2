@@ -12,6 +12,7 @@ export const Pelicula = sequelize.define("Pelicula", {
     type: DataTypes.STRING,
     notEmpty: true,
     min: 2,
+    unique: true,
   },
   votacion: {
     type: DataTypes.NUMBER,
