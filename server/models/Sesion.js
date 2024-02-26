@@ -9,6 +9,9 @@ export const Sesion = sequelize.define("Sesion", {
     primaryKey: true,
     autoIncrement: true,
   },
+  nombreSesion: {
+    type: DataTypes.STRING
+  }
 });
 
 Sesion.hasMany(Usuario, {
