@@ -3,6 +3,6 @@ import { crearPelicula } from "../controllers/pelicula.controller.js";
 
 const router = Router();
 
-router.post(`/crear-pelicula/:nombreSesion`, crearPelicula);
+router.post(`/api/crear-pelicula/:nombreSesion`, crearPelicula);
 
 export default router;
