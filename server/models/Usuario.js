@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/mysql.config.js";
+import { Sesion } from "./Sesion.js";
 import bcrypt from "bcrypt";
 
 export const Usuario = sequelize.define(
@@ -51,3 +52,13 @@ export const Usuario = sequelize.define(
     },
   }
 );
+
+Usuario.hasMany(Sesion, {
+  foreignKey: "usuarioId",
+  sourceKey: "id",
+});
+
+Sesion.belongsTo(Usuario, {
+  foreignKey: "usuarioId",
+  targetId: "id",
+});

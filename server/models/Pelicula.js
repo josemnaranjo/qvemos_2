@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/mysql.config.js";
-import { Evaluacion } from "./Evaluacion.js";
+import { Sesion } from "./Sesion.js";
 
 export const Pelicula = sequelize.define("Pelicula", {
   id: {
@@ -15,17 +15,17 @@ export const Pelicula = sequelize.define("Pelicula", {
     unique: true,
   },
   votacion: {
-    type: DataTypes.NUMBER,
+    type: DataTypes.INTEGER,
     defaultValue: 0,
   },
 });
 
-Pelicula.hasMany(Evaluacion, {
+Pelicula.hasMany(Sesion, {
   foreignKey: "peliculaId",
   sourceKey: "id",
 });
 
-Evaluacion.belongsTo(Pelicula, {
+Sesion.belongsTo(Pelicula, {
   foreignKey: "peliculaId",
   targetId: "id",
 });

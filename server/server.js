@@ -9,7 +9,7 @@ import evaluacionRoutes from "./routes/evaluacion.routes.js";
 import peliculaRoutes from "./routes/pelicula.routes.js";
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -29,7 +29,7 @@ async function main() {
       console.log(`Conexón con el puerto ${port} establecida exitosamente`);
     });
   } catch (err) {
-    console.log("Error al establecer conexión con la base de datos");
+    console.log("Error al establecer conexión con la base de datos",err);
   }
 }
 
