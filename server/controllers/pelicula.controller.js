@@ -1,3 +1,4 @@
+import { where } from "sequelize";
 import { Pelicula } from "../models/Pelicula.js";
 import { Sesion } from "../models/Sesion.js";
 
@@ -30,3 +31,23 @@ export const crearPelicula = async (req, res) => {
     });
   }
 };
+
+export const obtenerPeliculasDeUnaSesion = async(req,res) => {
+    try {
+        const {nombreSesion} = req.params;
+
+        //* obtengo id de sesion con el nombre de esta
+        const sesion = await Sesion.findAll({where:{nombreSesion:nombreSesion}})
+        const sesionId = sesion[0].id
+        
+        //* obtengo todas las peliculas de la sesion
+        const peliculas = await Pelicula.findAll({where:{sesionId:sesionId}})
+
+        res.json(peliculas)
+    } catch (error) {
+        res.status(500).json({
+            mensaje: "Algo salió mal al obtener las películas de la sesion",
+            errores: err,
+          });
+    }
+}
