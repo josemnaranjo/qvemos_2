@@ -24,4 +24,3 @@ Pelicula.belongsTo(Sesion,{
   targetId: "id",
 })
 
-

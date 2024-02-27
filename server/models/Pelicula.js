@@ -20,12 +20,3 @@ export const Pelicula = sequelize.define("Pelicula", {
   },
 });
 
-Pelicula.hasMany(Sesion, {
-  foreignKey: "peliculaId",
-  sourceKey: "id",
-});
-
-Sesion.belongsTo(Pelicula, {
-  foreignKey: "peliculaId",
-  targetId: "id",
-});

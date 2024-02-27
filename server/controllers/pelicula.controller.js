@@ -6,17 +6,17 @@ export const crearPelicula = async (req, res) => {
     const { nombreSesion } = req.params;
     const { titulo } = req.body;
 
-    //* creo película y obtengo su id
+    //* obtengo id de sesion
+    const sesion = await Sesion.findAll({
+      where: { nombreSesion: nombreSesion },
+    });
+    const sesionId = sesion[0].id
+
+    //* creo película y paso id de sesion
     const nuevaPelicula = await Pelicula.create({
       titulo,
+      sesionId
     });
-    const peliculaId = nuevaPelicula.id;
-
-    //* actualizo la sesion y le paso el id de la película creada
-    const sesion = await Sesion.update(
-      { peliculaId: peliculaId },
-      { where: { nombreSesion: nombreSesion } }
-    );
 
     res.json({
       mensaje: "Pelicula creada exitosamente",
