@@ -1,4 +1,4 @@
-import { Sesion } from "../controllers/sesion.controller.js";
+import { Sesion } from "../models/Sesion.js";
 
 export const crearSesion = async (req, res) => {
   try {
@@ -8,7 +8,7 @@ export const crearSesion = async (req, res) => {
     });
     res.json({
       mensaje: "Sesion creada de forma exitosa",
-      sesion
+      sesion,
     });
   } catch (err) {
     res.status(500).json({
