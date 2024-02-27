@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/mysql.config.js";
+import { Pelicula } from "./Pelicula.js";
 
 
 export const Sesion = sequelize.define("Sesion", {
@@ -12,5 +13,15 @@ export const Sesion = sequelize.define("Sesion", {
     type: DataTypes.STRING
   }
 });
+
+Sesion.hasMany(Pelicula,{
+    foreignKey: "sesionId",
+  sourceKey: "id",
+})
+
+Pelicula.belongsTo(Sesion,{
+    foreignKey: "sesionId",
+  targetId: "id",
+})
 
 
