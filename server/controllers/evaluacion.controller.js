@@ -5,16 +5,16 @@ export const crearEvaluacion = async (req, res) => {
   try {
     const { titulo, nota, evaluacion } = req.body;
 
-    //*obtengo informacion de la pelicula, y de esta, su id
-    const pelicula = await Pelicula.findAll({ where: { titulo: titulo } });
-    const peliculaId = pelicula[0].id;
+    //*creo evaluacion y obtengo su id
+    const solicitudEvaluacion = await Evaluacion.create({ nota, evaluacion });
+    const evaluacionId = solicitudEvaluacion.id;
 
-    //* creo evaluacion de la pelicula
-    const solicitudEvaluacion = await Evaluacion.create({
-      nota,
-      evaluacion,
-      peliculaId,
-    });
+    //* actualizo la película con el id de la evaluacion
+    const pelicula = await Pelicula.update(
+      { evaluacionId: evaluacionId },
+      { where: { titulo: titulo } }
+    );
+
     res.json({
       mensaje: "Evaliacion creada con éxito",
       solicitudEvaluacion,
