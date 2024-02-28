@@ -2,6 +2,7 @@ import { Router } from "express";
 import {
   crearPelicula,
   obtenerPeliculasDeUnaSesion,
+  votacionEnSesion,
 } from "../controllers/pelicula.controller.js";
 
 const router = Router();
@@ -11,4 +12,5 @@ router.get(
   "/api/peliculas-de-la-sesion/:nombreSesion",
   obtenerPeliculasDeUnaSesion
 );
+router.post("/api/votacion", votacionEnSesion);
 export default router;
