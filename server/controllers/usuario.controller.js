@@ -26,6 +26,7 @@ export const Registro = async (req, res) => {
 export const Login = async (req, res) => {
   try {
     const { nombre, password } = req.body;
+
     const usuario = await Usuario.findAll({ where: { nombre: nombre } });
 
     if (usuario === null) {
@@ -35,6 +36,7 @@ export const Login = async (req, res) => {
         },
       });
     }
+
     const correctPassword = await bcrypt.compare(password, usuario[0].password);
 
     if (!correctPassword) {

@@ -44,13 +44,6 @@ export const Usuario = sequelize.define(
       }
     },
   },
-  {
-    instanceMethods: {
-      validPassword: (password) => {
-        return bcrypt.compareSync(password, this.password);
-      },
-    },
-  }
 );
 
 Usuario.hasMany(Sesion, {
