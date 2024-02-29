@@ -66,7 +66,7 @@ export const votacionEnSesion = async (req, res) => {
         sequelize.query(
           `
                 UPDATE ${tableName}
-                SET votacion=${votacionArray[i].votacion}
+                SET votacion= votacion + ${votacionArray[i].votacion}
                 WHERE id=${votacionArray[i].id}
                 `
         )
@@ -91,9 +91,12 @@ export const resultadosDeVotacion = async (req, res) => {
     const sesionData = await Sesion.findOne({
       where: { nombreSesion: nombreSesion },
     });
-    const sesionId = sesionData.id
-    const moviesData = await Pelicula.findAll({where:{sesionId:sesionId}, order: [["votacion", "DESC"]]})
-    res.json(moviesData)
+    const sesionId = sesionData.id;
+    const moviesData = await Pelicula.findAll({
+      where: { sesionId: sesionId },
+      order: [["votacion", "DESC"]],
+    });
+    res.json(moviesData);
   } catch (error) {
     res.status(500).json({
       mensaje: "Algo salió mal al obtener los resultados de la votación",
