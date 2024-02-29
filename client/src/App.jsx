@@ -14,31 +14,41 @@ import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Reglas from "./Views/Reglas.jsx";
 // import MovieInfo from "./Components/MovieInfo.jsx";
+import { UserProvider } from "./context/userContext.jsx";
+import ProtectedRoutes from "./utils/ProtectedRoutes.jsx";
 
 function App() {
   return (
-    <>
+    <UserProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/registrarse" element={<Registrarse />} />
-        <Route path="/crear-sala" element={<CrearSala />} />
-        <Route path="/unirse-a-sala" element={<UnirseASala />} />
-        <Route
-          path="/anfitrion-entrega-codigo-de-sala"
-          element={<EntregaCodigoDeSala />}
-        />
-        <Route path="/sala/:id/recomendaciones" element={<Recomendaciones />} />
-        <Route path="/sala/:id/votacion" element={<Votacion />} />
-        <Route path="/sala/:id/espera-votacion" element={<EsperaVotación />} />
-        <Route path="/sala/:id/resultados" element={<Resultados />} />
-        <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
         <Route path="/reglamento" element={<Reglas />} />
+        <Route element={<ProtectedRoutes />}>
+          <Route path="/crear-sala" element={<CrearSala />} />
+          <Route path="/unirse-a-sala" element={<UnirseASala />} />
+          <Route
+            path="/anfitrion-entrega-codigo-de-sala"
+            element={<EntregaCodigoDeSala />}
+          />
+          <Route
+            path="/sala/:id/recomendaciones"
+            element={<Recomendaciones />}
+          />
+          <Route path="/sala/:id/votacion" element={<Votacion />} />
+          <Route
+            path="/sala/:id/espera-votacion"
+            element={<EsperaVotación />}
+          />
+          <Route path="/sala/:id/resultados" element={<Resultados />} />
+          <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
+        </Route>
 
         {/* <Route path="/movie-info/:title" element={<MovieInfo />} /> BORRAR SI NO SE USA! */}
       </Routes>
-    </>
+    </UserProvider>
   );
 }
 
