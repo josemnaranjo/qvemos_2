@@ -11,6 +11,9 @@ export const Sesion = sequelize.define("Sesion", {
   },
   nombreSesion: {
     type: DataTypes.STRING
+  },
+  genero:{
+    type:DataTypes.STRING
   }
 });
 
