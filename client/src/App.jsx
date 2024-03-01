@@ -30,7 +30,7 @@ function App() {
           <Route path="/crear-sala" element={<CrearSala />} />
           <Route path="/unirse-a-sala" element={<UnirseASala />} />
           <Route
-            path="/anfitrion-entrega-codigo-de-sala"
+            path="/anfitrion-entrega-codigo-de-sala/:id"
             element={<EntregaCodigoDeSala />}
           />
           <Route

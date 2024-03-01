@@ -1,13 +1,24 @@
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
+import { crearSesion } from "../api/sesion.services";
 
 const  CrearSala = () => {
   const navigate = useNavigate();
-  const handleSubmit = (values) => {
+
+  const handleSubmit = async (values) => {
     const uuid = self.crypto.randomUUID();
     const shortUuid = uuid.slice(2, 5);
-    const newValues = { ...values, nombreSala: values.nombreSala + shortUuid };
-    console.log(newValues);
+    const sesionData = { ...values, nombreSesion: values.nombreSesion + shortUuid };
+    try {
+        const response = await crearSesion(sesionData)
+        if(response.data.mensaje === "Sesion creada de forma exitosa"){
+            const salaId = response.data.sesion.nombreSesion
+            navigate(`/anfitrion-entrega-codigo-de-sala/${salaId}`)
+        }
+    } catch (error) {
+        console.error(error)
+    }
+    
   };
   return (
     <main className="flex flex-col items-center">
@@ -22,22 +33,21 @@ const  CrearSala = () => {
         <span>Luego, nombra la sala para que comience la votación 🗳</span>
       </p>
       <Formik
-        initialValues={{ genre: "", nombreSala: "" }}
+        initialValues={{ genero: "", nombreSesion: "" }}
         onSubmit={(values) => {
           handleSubmit(values);
-          navigate("/anfitrion-entrega-codigo-de-sala");
         }}
       >
         <Form>
           <article className="mt-[30px] w-[342px] h-[160px] bg-secondary rounded-xl border-4 border-tertiary flex flex-col items-center justify-around">
             <label
-              htmlFor="genre"
+              htmlFor="genero"
               className="font-grotesk font-bold text-lg text-primary"
             >
               GÉNERO
             </label>
             <Field
-              name="genre"
+              name="genero"
               as="select"
               className=" w-[183px] h-[26px] rounded-xl px-2 font-grotesk font-bold text-label "
             >
@@ -61,13 +71,13 @@ const  CrearSala = () => {
 
           <article className="mt-[10px] w-[342px] h-[200px] bg-secondary rounded-xl border-4 border-tertiary flex flex-col items-center justify-around">
             <label
-              htmlFor="nombreSala"
+              htmlFor="nombreSesion"
               className="font-grotesk font-bold text-lg text-primary"
             >
-              NOMBRE DE LA SALA
+              NOMBRE DE LA SESION
             </label>
             <Field
-              name="nombreSala"
+              name="nombreSesion"
               placeholder="algo simple..."
               className="w-[183px] h-[26px] rounded-xl px-3 font-grotesk font-bold text-label"
             />
