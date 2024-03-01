@@ -1,26 +1,14 @@
 import { Formik, Form, Field } from "formik";
 
-const VoteForm = () => {
-  const data = {
-    movies: [
-      { id: 1, titulo: "The Shining", votacion: 0, sesionId: 1 },
-      { id: 2, titulo: "The Thing", votacion: 0, sesionId: 1 },
-      { id: 3, titulo: "The Mist", votacion: 0, sesionId: 1 },
-      { id: 4, titulo: "X", votacion: 0, sesionId: 1 },
-      { id: 5, titulo: "The Others", votacion: 0, sesionId: 1 },
-      { id: 6, titulo: "Doctor Sleep", votacion: 0, sesionId: 1 },
-      { id: 7, titulo: "Terrifier", votacion: 0, sesionId: 1 },
-      { id: 8, titulo: "The Witch", votacion: 0, sesionId: 1 },
-    ],
-  };
-
+const VoteForm = ({ recomendaciones }) => {
   const handleSubmit = (values) => {
-    const idArray = data.movies.map((m) => ({ id: m.id }));
+    const idArray = recomendaciones.map((m) => ({ id: m.id }));
     const votationArray = values.votation.map((v, index) => ({
       id: idArray[index].id,
       votacion: v.votacion,
     }));
-    console.log(votationArray);
+    const objFina = {votationArray}
+    //! PENDIENTE CREAR SERVICIO PARA ENVIAR VOTACION DE RECOMENDACIONES
   };
 
   return (
@@ -33,7 +21,7 @@ const VoteForm = () => {
       </p>
       <Formik initialValues={{}} onSubmit={handleSubmit}>
         <Form className="overflow-scroll">
-          {data.movies.map((m, index) => (
+          {recomendaciones?.map((m, index) => (
             <div
               key={m.id}
               className="mt-[16px] w-[342px] h-[120px] bg-secondary rounded-xl flex flex-col justify-center items-center"
