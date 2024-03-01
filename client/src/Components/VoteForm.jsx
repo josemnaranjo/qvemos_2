@@ -1,14 +1,20 @@
 import { Formik, Form, Field } from "formik";
+import { votacionDeSesion } from "../api/peliculas.services";
+import { useNavigate, useParams } from "react-router-dom";
 
 const VoteForm = ({ recomendaciones }) => {
-  const handleSubmit = (values) => {
+    const navigate = useNavigate()
+    const {id} = useParams();
+
+  const handleSubmit = async (values) => {
     const idArray = recomendaciones.map((m) => ({ id: m.id }));
-    const votationArray = values.votation.map((v, index) => ({
+    const votacionArray = values.votation.map((v, index) => ({
       id: idArray[index].id,
       votacion: v.votacion,
     }));
-    const objFina = {votationArray}
-    //! PENDIENTE CREAR SERVICIO PARA ENVIAR VOTACION DE RECOMENDACIONES
+    const objFinal = { votacionArray };
+    await votacionDeSesion(objFinal);
+    navigate(`/sala/${id}/espera-votacion`)
   };
 
   return (
