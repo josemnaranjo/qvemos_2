@@ -1,13 +1,25 @@
+import { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 import { useNavigate, useParams } from "react-router-dom";
+import { obtenerSesion } from "../api/sesion.services";
 
 const Recomendaciones = () => {
+  const [sesionInfoGenre, setSesionInfoGenre] = useState();
   const { id } = useParams();
   const navigate = useNavigate();
   const handleSubmit = (values) => {
     console.log(values);
   };
 
+  const getSesionInfo = async () => {
+    const response = await obtenerSesion(id);
+    const sesionGenre = response.data.genero.toUpperCase();
+    setSesionInfoGenre(sesionGenre);
+  };
+
+  useEffect(() => {
+    getSesionInfo();
+  }, []);
   return (
     <main className="flex flex-col items-center">
       <article>
@@ -19,7 +31,7 @@ const Recomendaciones = () => {
           }}
         >
           <h1 className="font-limelight font-normal text-xxl text-primary">
-            TERROR
+            {sesionInfoGenre}
           </h1>
         </div>
       </article>
