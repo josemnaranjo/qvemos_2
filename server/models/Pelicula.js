@@ -1,6 +1,5 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/mysql.config.js";
-import { Sesion } from "./Sesion.js";
 
 export const Pelicula = sequelize.define("Pelicula", {
   id: {

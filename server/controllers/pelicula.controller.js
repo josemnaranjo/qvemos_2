@@ -2,10 +2,10 @@ import { sequelize } from "../config/mysql.config.js";
 import { Pelicula } from "../models/Pelicula.js";
 import { Sesion } from "../models/Sesion.js";
 
-export const crearPelicula = async (req, res) => {
+export const crearRecomendaciones = async (req, res) => {
   try {
     const { nombreSesion } = req.params;
-    const { titulo } = req.body;
+    const recomendaciones = req.body.recomendaciones;
 
     //* obtengo id de sesion
     const sesion = await Sesion.findAll({
@@ -13,15 +13,15 @@ export const crearPelicula = async (req, res) => {
     });
     const sesionId = sesion[0].id;
 
+    //*agregego a cada objeto del array "recomendaciones" el sesionId
+    const newRecomendacionesArray = recomendaciones.map((r)=> ({...r, sesionId:sesionId}))
+
     //* creo película y paso id de sesion
-    const nuevaPelicula = await Pelicula.create({
-      titulo,
-      sesionId,
-    });
+    const nuevasRecomendaciones = await Pelicula.bulkCreate(newRecomendacionesArray);
 
     res.json({
-      mensaje: "Pelicula creada exitosamente",
-      nuevaPelicula,
+      mensaje: "Recomendaciones enviadas exitosamente",
+      nuevasRecomendaciones,
       sesion,
     });
   } catch (err) {

@@ -1,6 +1,6 @@
 import { Router } from "express";
 import {
-  crearPelicula,
+  crearRecomendaciones,
   obtenerPeliculasDeUnaSesion,
   votacionEnSesion,
   resultadosDeVotacion,
@@ -8,7 +8,7 @@ import {
 
 const router = Router();
 
-router.post(`/api/crear-pelicula/:nombreSesion`, crearPelicula);
+router.post(`/api/crear-pelicula/:nombreSesion`, crearRecomendaciones);
 router.get(
   "/api/peliculas-de-la-sesion/:nombreSesion",
   obtenerPeliculasDeUnaSesion
