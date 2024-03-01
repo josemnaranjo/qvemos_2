@@ -2,9 +2,10 @@ import { Sesion } from "../models/Sesion.js";
 
 export const crearSesion = async (req, res) => {
   try {
-    const { nombreSesion } = req.body;
+    const { nombreSesion, genero } = req.body;
     const sesion = await Sesion.create({
       nombreSesion: nombreSesion,
+      genero:genero
     });
     res.json({
       mensaje: "Sesion creada de forma exitosa",
