@@ -1,4 +1,8 @@
+import { useParams, useNavigate } from "react-router-dom";
+
 const EsperaVotacion = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
   return (
     <main className="flex flex-col justify-center items-center">
       <h1 className="mt-[36px] w-[342px] h-[108px] font-grotesk font-bold text-xxl text-secondary text-center">
@@ -12,7 +16,10 @@ const EsperaVotacion = () => {
         <p className="font-grotesk font-normal text-body text-center text-secondary">
           Solo cuando estén todos listos, puedes clickear el botón de abajo
         </p>
-        <button className="w-[342px] h-[44px] rounded-lg bg-primary font-grotesk font-bold text-label text-secondary">
+        <button
+          className="w-[342px] h-[44px] rounded-lg bg-primary font-grotesk font-bold text-label text-secondary"
+          onClick={() => navigate(`/sala/${id}/resultados`)}
+        >
           VER PELICULA GANADORA
         </button>
       </article>

@@ -1,7 +1,19 @@
 import { Link, useParams } from "react-router-dom";
+import { resultadosVotacion } from "../api/peliculas.services";
+import { useState, useEffect } from "react";
 
 const Resultados = () => {
   const { id } = useParams();
+  const [ganador, setGanador] = useState();
+
+  const handleGetResult = async () => {
+    const response = await resultadosVotacion(id);
+    setGanador(response.data);
+  };
+
+  useEffect(() => {
+    handleGetResult();
+  }, []);
 
   return (
     <main className="flex flex-col justify-center items-center">
@@ -12,7 +24,7 @@ const Resultados = () => {
         <div className="w-[342px] h-[396px] bg-secondary border-4 border-tertiary rounded-xl">
           <div className="flex flex-col items-center">
             <h1 className=" mt-[18px] font-grotesk font-bold text-xxl text-primary text-center">
-              TÍTULO
+              {ganador?.titulo}
             </h1>
             <img
               src="https://www.movieposters.com/cdn/shop/files/THING_5d1279a2-2e38-4ca0-8cb5-91f9b30b6ebb_480x.progressive.jpg?v=1693491676"

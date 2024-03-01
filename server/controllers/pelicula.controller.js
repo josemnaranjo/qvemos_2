@@ -96,7 +96,7 @@ export const resultadosDeVotacion = async (req, res) => {
       where: { sesionId: sesionId },
       order: [["votacion", "DESC"]],
     });
-    res.json(moviesData);
+    res.json(moviesData[0]);
   } catch (error) {
     res.status(500).json({
       mensaje: "Algo salió mal al obtener los resultados de la votación",

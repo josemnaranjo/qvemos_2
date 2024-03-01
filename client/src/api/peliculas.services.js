@@ -13,3 +13,6 @@ export const obtenerPeliculasDeLaSesion = async (nombreSesion) =>
 
 export const votacionDeSesion = async (votacionArray) =>
   await axios.post("http://localhost:3000/api/votacion", votacionArray);
+
+export const resultadosVotacion = async (nombreSesion) =>
+  await axios.get(`http://localhost:3000/api/resultado-votacion/${nombreSesion}`);
