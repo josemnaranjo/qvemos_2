@@ -1,7 +1,13 @@
 import { Formik, Field, Form } from "formik";
 import * as Yup from "yup";
+import { useNavigate } from "react-router-dom";
+import { registrar } from "../api/usuario.services";
+import { useUser } from "../context/userContext";
+
 
 const Registrarse = () => {
+  const {setUser} = useUser()
+  const navigate = useNavigate();
   const validationSchema = Yup.object().shape({
     nombre: Yup.string()
       .min(3, "Muy corto")
@@ -12,8 +18,16 @@ const Registrarse = () => {
       .max(7, "Muy largo")
       .required("Debes ingresar una contraseña"),
   });
-  const handleSubmit = (values) => {
-    console.log(values);
+  const handleSubmit = async (values) => {
+    try {
+      const response = await registrar(values);
+      if (response.data.mensaje === "éxito al crear usuario") {
+        setUser(response.data.nuevoUsuario.nombre);
+        navigate("/")
+      }
+    } catch (error) {
+      console.error(error);
+    }
   };
   return (
     <main className="flex flex-col items-center">
