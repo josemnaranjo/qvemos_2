@@ -2,13 +2,18 @@ import { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
 import { useNavigate, useParams } from "react-router-dom";
 import { obtenerSesion } from "../api/sesion.services";
+import { crearRecomendaciones } from "../api/peliculas.services";
 
 const Recomendaciones = () => {
   const [sesionInfoGenre, setSesionInfoGenre] = useState();
   const { id } = useParams();
   const navigate = useNavigate();
+
   const handleSubmit = (values) => {
-    console.log(values);
+    const peliculasArray = Object.values(values);
+    const recomendaciones = peliculasArray.map((p) => ({ titulo: p }));
+    const recoObj = { recomendaciones };
+    crearRecomendaciones(id, recoObj);
   };
 
   const getSesionInfo = async () => {
@@ -31,6 +36,7 @@ const Recomendaciones = () => {
           }}
         >
           <h1 className="font-limelight font-normal text-xxl text-primary">
+            {/* que el genero sea en español */}
             {sesionInfoGenre}
           </h1>
         </div>
@@ -39,7 +45,7 @@ const Recomendaciones = () => {
         initialValues={{
           recomendacionUno: "",
           recomendacionDos: "",
-          recomendacionTres: " ",
+          recomendacionTres: "",
         }}
         onSubmit={(values) => {
           handleSubmit(values);
