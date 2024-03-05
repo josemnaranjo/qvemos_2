@@ -3,14 +3,14 @@ import { Pelicula } from "../models/Pelicula.js";
 
 export const crearEvaluacion = async (req, res) => {
   try {
-    const { titulo, nota, evaluacion } = req.body;
+    const { titulo, comentario, puntuacion } = req.body;
 
     //*creo evaluacion y obtengo su id
-    const solicitudEvaluacion = await Evaluacion.create({ nota, evaluacion });
+    const solicitudEvaluacion = await Evaluacion.create({ comentario, puntuacion });
     const evaluacionId = solicitudEvaluacion.id;
 
     //* actualizo la película con el id de la evaluacion
-    const pelicula = await Pelicula.update(
+    await Pelicula.update(
       { evaluacionId: evaluacionId },
       { where: { titulo: titulo } }
     );

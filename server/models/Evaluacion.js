@@ -8,11 +8,11 @@ export const Evaluacion = sequelize.define("Evaluacion", {
     primaryKey: true,
     autoIncrement: true,
   },
-  nota: {
+  puntuacion: {
     type: DataTypes.INTEGER,
     defaultValue: 0,
   },
-  evaluacion: {
+  comentario: {
     type: DataTypes.STRING,
   },
 });
