@@ -1,24 +1,29 @@
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
 import { crearSesion } from "../api/sesion.services";
+import useStore from "../store/anfiStore";
 
-const  CrearSala = () => {
+const CrearSala = () => {
   const navigate = useNavigate();
+  const {setAnfitrion} = useStore();
 
   const handleSubmit = async (values) => {
     const uuid = self.crypto.randomUUID();
     const shortUuid = uuid.slice(2, 5);
-    const sesionData = { ...values, nombreSesion: values.nombreSesion + shortUuid };
+    const sesionData = {
+      ...values,
+      nombreSesion: values.nombreSesion + shortUuid,
+    };
     try {
-        const response = await crearSesion(sesionData)
-        if(response.data.mensaje === "Sesion creada de forma exitosa"){
-            const salaId = response.data.sesion.nombreSesion
-            navigate(`/anfitrion-entrega-codigo-de-sala/${salaId}`)
-        }
+      const response = await crearSesion(sesionData);
+      if (response.data.mensaje === "Sesion creada de forma exitosa") {
+        setAnfitrion(true);
+        const salaId = response.data.sesion.nombreSesion;
+        navigate(`/anfitrion-entrega-codigo-de-sala/${salaId}`);
+      }
     } catch (error) {
-        console.error(error)
+      console.error(error);
     }
-    
   };
   return (
     <main className="flex flex-col items-center">
