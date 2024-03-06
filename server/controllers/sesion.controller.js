@@ -31,6 +31,7 @@ export const obtenerSesion = async (req, res) => {
     const { nombreSesion } = req.params;
     const sesion = await Sesion.findOne({
       where: { nombreSesion: nombreSesion },
+      include: [{ model: Usuario, attributes: ["nombre"] }],
     });
     res.json(sesion);
   } catch (error) {
