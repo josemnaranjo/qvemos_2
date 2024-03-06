@@ -1,11 +1,19 @@
 import { Sesion } from "../models/Sesion.js";
+import { Usuario } from "../models/Usuario.js";
 
 export const crearSesion = async (req, res) => {
+  //! TENGO QUE BUSCAR LA FORMA DE ENCONTRAR AL USUARIO PARA PODER ENVIAR SU ID AL MOMENTO DE CREAR LA SESION (TANTO PARA EL FRONT Y BACK)
   try {
-    const { nombreSesion, genero } = req.body;
+    const { nombreSesion, genero, nombreUsuario } = req.body;
+
+    const usuarioInfo = await Usuario.findOne({
+      where: { nombre: nombreUsuario },
+    });
+    const usuarioId = usuarioInfo.id;
     const sesion = await Sesion.create({
       nombreSesion: nombreSesion,
       genero: genero,
+      usuarioId: usuarioId,
     });
     res.json({
       mensaje: "Sesion creada de forma exitosa",
