@@ -51,7 +51,7 @@ const Navbar = () => {
     }
   };
 
-  return <>{renderInfo()}</>;
+  return <div>{renderInfo()}</div>;
 };
 
 export default Navbar;
