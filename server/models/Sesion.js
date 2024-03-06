@@ -14,6 +14,10 @@ export const Sesion = sequelize.define("Sesion", {
   },
   genero:{
     type:DataTypes.STRING
+  },
+  estaAnfitrion: {
+    type:DataTypes.BOOLEAN,
+    defaultValue:false
   }
 });
 

@@ -37,7 +37,24 @@ export const obtenerSesion = async (req, res) => {
     res.status(500).json({
       mensaje:
         "Algo salió mal al momento de obtener la información de la sesion",
-      errores: err,
+      errores: error,
+    });
+  }
+};
+
+export const actualizarSiAnfitrionExiste = async (req, res) => {
+  try {
+    const { nombreSesion } = req.params;
+    const response = await Sesion.update(
+      { estaAnfitrion: true },
+      { where: { nombreSesion: nombreSesion } }
+    );
+    res.json(response);
+  } catch (error) {
+    res.status(500).json({
+      mensaje:
+        "Algo salió mal al momento de obtener de actualizar la presencia del anfitrion",
+      errores: error,
     });
   }
 };
