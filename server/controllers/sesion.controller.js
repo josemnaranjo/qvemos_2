@@ -2,7 +2,6 @@ import { Sesion } from "../models/Sesion.js";
 import { Usuario } from "../models/Usuario.js";
 
 export const crearSesion = async (req, res) => {
-  //! TENGO QUE BUSCAR LA FORMA DE ENCONTRAR AL USUARIO PARA PODER ENVIAR SU ID AL MOMENTO DE CREAR LA SESION (TANTO PARA EL FRONT Y BACK)
   try {
     const { nombreSesion, genero, nombreUsuario } = req.body;
 
