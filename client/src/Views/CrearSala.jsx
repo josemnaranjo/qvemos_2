@@ -1,8 +1,10 @@
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
 import { crearSesion } from "../api/sesion.services";
+import { useUser } from "../context/userContext";
 
 const CrearSala = () => {
+  const { user } = useUser();
   const navigate = useNavigate();
 
   const handleSubmit = async (values) => {
@@ -11,6 +13,7 @@ const CrearSala = () => {
     const sesionData = {
       ...values,
       nombreSesion: values.nombreSesion + shortUuid,
+      nombreUsuario: user
     };
     try {
       const response = await crearSesion(sesionData);
@@ -35,7 +38,10 @@ const CrearSala = () => {
         <span>Luego, nombra la sala para que comience la votación 🗳</span>
       </p>
       <Formik
-        initialValues={{ genero: "", nombreSesion: "" }}
+        initialValues={{
+          genero: "",
+          nombreSesion: "",
+        }}
         onSubmit={(values) => {
           handleSubmit(values);
         }}
