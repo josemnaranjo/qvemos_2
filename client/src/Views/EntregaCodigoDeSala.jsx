@@ -1,8 +1,17 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { actualizarPresenciaDeAnfitrion } from "../api/sesion.services";
 
 const EntregaCodigoDeSala = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+
+  const handleClick = async () => {
+    const response = await actualizarPresenciaDeAnfitrion(id);
+    if (response.data[0] === 1) {
+      navigate(`/sala/${id}/votacion`);
+    }
+  };
+
   return (
     <main className="flex flex-col items-center">
       <article className=" mt-[18px] w-[342px] h-[216px] bg-secondary rounded-xl border-4 border-tertiary flex flex-col items-center justify-around">
@@ -30,7 +39,7 @@ const EntregaCodigoDeSala = () => {
         </h1>
         <button
           className="w-[184px] h-[36px] rounded-xl bg-primary font-grotesk font-bold text-label text-secondary"
-          onClick={navigate(`/sala/${id}/votacion`)}
+          onClick={handleClick}
         >
           INICIAR VOTACION
         </button>
