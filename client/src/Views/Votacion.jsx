@@ -10,23 +10,31 @@ const Votacion = () => {
 
   const [toggleVoteOrWaitingPage, setToggleVoteOrWaitingPage] = useState(false);
   const [recomendaciones, setRecomendaciones] = useState();
+  const [stopInterval, setStopInterval] = useState(false);
 
   const handleGetRecomendaciones = async () => {
     const response = await obtenerPeliculasDeLaSesion(id);
     setRecomendaciones(response.data);
   };
 
+  //! REVISAR: se hace llamado a juegos que no existen. funcion "obtenerSesion"
+
   const handleGetAnfitrion = async () => {
     const response = await obtenerSesion(id);
     const anfitrionPresente = response.data.estaAnfitrion;
-    console.log(anfitrionPresente);
-    setToggleVoteOrWaitingPage(anfitrionPresente);
+    if (anfitrionPresente) {
+      setToggleVoteOrWaitingPage(anfitrionPresente);
+      setStopInterval(true);
+    }
   };
 
   useEffect(() => {
     handleGetRecomendaciones();
-    handleGetAnfitrion();
-  }, [toggleVoteOrWaitingPage]);
+    const interval = setInterval(handleGetAnfitrion, 5000);
+    if (stopInterval) {
+      clearInterval(interval);
+    }
+  }, []);
 
   return (
     <>
