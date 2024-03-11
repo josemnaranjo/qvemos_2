@@ -17,9 +17,8 @@ const Votacion = () => {
     setRecomendaciones(response.data);
   };
 
-  //! REVISAR: se hace llamado a juegos que no existen. funcion "obtenerSesion"
-
   const handleGetAnfitrion = async () => {
+    //! REVISAR: se hace llamado a juegos que no existen. funcion "obtenerSesion"
     const response = await obtenerSesion(id);
     const anfitrionPresente = response.data.estaAnfitrion;
     if (anfitrionPresente) {
