@@ -1,6 +1,7 @@
 import { Sesion } from "../models/Sesion.js";
 import { Usuario } from "../models/Usuario.js";
 
+//! por alguna razon, cuando creo sesiones arroja error, pero se crean en la base de datos
 export const crearSesion = async (req, res) => {
   try {
     const { nombreSesion, genero, nombreUsuario } = req.body;
@@ -59,3 +60,4 @@ export const actualizarSiAnfitrionExiste = async (req, res) => {
     });
   }
 };
+

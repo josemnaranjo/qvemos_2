@@ -18,15 +18,6 @@ export const Sesion = sequelize.define("Sesion", {
     type: DataTypes.BOOLEAN,
     defaultValue: false,
   },
-  numeroDeUsuarios: {
-    type: DataTypes.STRING,
-    get() {
-      return this.getDataValue("nombreDeUsuarios").split(";");
-    },
-    set(val) {
-      this.setDataValue("nombreDeUsuarios", val.join(";"));
-    },
-  },
 });
 
 Sesion.hasMany(Pelicula, {
