@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const EsperaVotacion = () => {
   const { id } = useParams();
@@ -18,7 +19,20 @@ const EsperaVotacion = () => {
         </p>
         <button
           className="w-[342px] h-[44px] rounded-lg bg-primary font-grotesk font-bold text-label text-secondary"
-          onClick={() => navigate(`/sala/${id}/resultados`)}
+          onClick={() =>
+            Swal.fire({
+              title: "¿Estás seguro que todos votaron?",
+              text: "De verdad, ¿estás seguro?",
+              icon: "info",
+              showCancelButton: true,
+              cancelButtonText: "No estoy seguro",
+              confirmButtonText: "¡Sí!",
+            }).then((result) => {
+              if (result.isConfirmed) {
+                navigate(`/sala/${id}/resultados`);
+              }
+            })
+          }
         >
           VER PELICULA GANADORA
         </button>
