@@ -13,7 +13,6 @@ import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Reglas from "./Views/Reglas.jsx";
-// import MovieInfo from "./Components/MovieInfo.jsx";
 import { UserProvider } from "./context/userContext.jsx";
 import ProtectedRoutes from "./utils/ProtectedRoutes.jsx";
 
@@ -45,8 +44,6 @@ function App() {
           <Route path="/sala/:id/resultados" element={<Resultados />} />
           <Route path="/sala/:id/evaluacion" element={<Evaluacion />} />
         </Route>
-
-        {/* <Route path="/movie-info/:title" element={<MovieInfo />} /> BORRAR SI NO SE USA! */}
       </Routes>
     </UserProvider>
   );
