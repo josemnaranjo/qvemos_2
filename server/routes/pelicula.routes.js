@@ -4,6 +4,7 @@ import {
   obtenerPeliculasDeUnaSesion,
   votacionEnSesion,
   resultadosDeVotacion,
+  obtenerLasTresMejoresRecomendaciones,
 } from "../controllers/pelicula.controller.js";
 
 const router = Router();
@@ -15,4 +16,8 @@ router.get(
 );
 router.post("/api/votacion", votacionEnSesion);
 router.get("/api/resultado-votacion/:nombreSesion", resultadosDeVotacion);
+router.get(
+  "/api/mejores-recomendaciones",
+  obtenerLasTresMejoresRecomendaciones
+);
 export default router;

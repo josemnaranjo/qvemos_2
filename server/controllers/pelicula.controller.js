@@ -14,10 +14,15 @@ export const crearRecomendaciones = async (req, res) => {
     const sesionId = sesion[0].id;
 
     //*agregego a cada objeto del array "recomendaciones" el sesionId
-    const newRecomendacionesArray = recomendaciones.map((r)=> ({...r, sesionId:sesionId}))
+    const newRecomendacionesArray = recomendaciones.map((r) => ({
+      ...r,
+      sesionId: sesionId,
+    }));
 
     //* creo película y paso id de sesion
-    const nuevasRecomendaciones = await Pelicula.bulkCreate(newRecomendacionesArray);
+    const nuevasRecomendaciones = await Pelicula.bulkCreate(
+      newRecomendacionesArray
+    );
 
     res.json({
       mensaje: "Recomendaciones enviadas exitosamente",
@@ -100,6 +105,21 @@ export const resultadosDeVotacion = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       mensaje: "Algo salió mal al obtener los resultados de la votación",
+      errores: error,
+    });
+  }
+};
+
+export const obtenerLasTresMejoresRecomendaciones = async (req, res) => {
+  try {
+    const mejoresPeliculas = await Pelicula.findAll({
+      order: [["votacion", "DESC"]],
+    });
+    const tresMejoresPeliculas = mejoresPeliculas.slice(0, 3);
+    res.json(tresMejoresPeliculas);
+  } catch (error) {
+    res.status(500).json({
+      mensaje: "Algo salió mal al obtener las mejores recomendaciones",
       errores: error,
     });
   }
