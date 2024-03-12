@@ -21,3 +21,6 @@ export const resultadosVotacion = async (nombreSesion) =>
 
 export const evaluarPelicula = async (evaluacion) =>
   await axios.post("http://localhost:3000/api/crear-evaluacion", evaluacion);
+
+export const obtenerLasTresMejoresRecomendaciones = async () =>
+  await axios.get("http://localhost:3000/api/mejores-recomendaciones");

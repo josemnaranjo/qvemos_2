@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { Link } from "react-router-dom";
 import TarjetaRecomendaciones from "../Components/TarjetaRecomendaciones";
+import { obtenerLasTresMejoresRecomendaciones } from "../api/peliculas.services";
 
 const Home = () => {
   const [recomendaciones, setRecomendaciones] = useState();
 
   const fetchTopRecomendaciones = async () => {
-    const recomendaciones = await axios.get(
-      "http://localhost:3000/topRecomendations"
-    );
+    const recomendaciones = await obtenerLasTresMejoresRecomendaciones();
+    console.log(recomendaciones.data);
     setRecomendaciones(recomendaciones.data);
   };
 
@@ -49,15 +48,17 @@ const Home = () => {
               return (
                 <TarjetaRecomendaciones
                   key={r.id}
-                  title={r.title}
+                  title={r.titulo}
                   rating={r.rating}
                   imgSrc={r.imgSrc}
                   genre={r.genre}
                 />
               );
             })}
-            <Link >
-            <span className="font-grotesk font-medium text-body text-primary">Ver todas las recomendaciones</span>
+            <Link>
+              <span className="font-grotesk font-medium text-body text-primary">
+                Ver todas las recomendaciones
+              </span>
             </Link>
           </div>
         </article>
