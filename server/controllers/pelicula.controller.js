@@ -1,6 +1,8 @@
 import { sequelize } from "../config/mysql.config.js";
 import { Pelicula } from "../models/Pelicula.js";
 import { Sesion } from "../models/Sesion.js";
+import { Evaluacion } from "../models/Evaluacion.js";
+import { Op } from "sequelize";
 
 export const crearRecomendaciones = async (req, res) => {
   try {
@@ -113,7 +115,13 @@ export const resultadosDeVotacion = async (req, res) => {
 export const obtenerLasTresMejoresRecomendaciones = async (req, res) => {
   try {
     const mejoresPeliculas = await Pelicula.findAll({
-      order: [["votacion", "DESC"]],
+      where: {
+        evaluacionId: { [Op.not]: null },
+      },
+      include: {
+        model: Evaluacion,
+      },
+      order: [[Evaluacion, "puntuacion", "DESC"]],
     });
     const tresMejoresPeliculas = mejoresPeliculas.slice(0, 3);
     res.json(tresMejoresPeliculas);
