@@ -28,7 +28,7 @@ const TarjetaRecomendaciones = ({ title, rating, genre }) => {
         }}
       >
         <span className="font-grotesk font-bold text-xl text-primary font-outline-2">
-          {title}
+          {title?.toUpperCase()}
         </span>
         <span className="text-primary">{transformNumberToStars(rating)}</span>
         <span className="font-grotesk font-bold text-body text-primary font-outline-1">
