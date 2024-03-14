@@ -1,9 +1,23 @@
-const TarjetaRecomendaciones = ({ title, rating, imgSrc, genre }) => {
+import { useState, useEffect } from "react";
+import { getOneMovie } from "../api/tmdb.services";
+
+const TarjetaRecomendaciones = ({ title, rating, genre }) => {
+  const [imgSrc, setImgSrc] = useState();
+  const handleGetImgSrc = async (title) => {
+    const movieInfo = await getOneMovie(title);
+    setImgSrc(movieInfo.results[0].backdrop_path);
+  };
+
+  useEffect(() => {
+    handleGetImgSrc(title);
+  }, []);
   return (
     <>
       <div
         className="w-[302px] h-[108px] flex flex-col items-center justify-center rounded-xl"
-        style={{ backgroundImage: `url(${imgSrc})` }}
+        style={{
+          backgroundImage: `url(https://image.tmdb.org/t/p/w500/${imgSrc})`,
+        }}
       >
         <span className="font-grotesk font-bold text-xl text-primary font-outline-2">
           {title}
