@@ -54,11 +54,6 @@ const Home = () => {
                 />
               );
             })}
-            <Link>
-              <span className="font-grotesk font-medium text-body text-primary">
-                Ver todas las recomendaciones
-              </span>
-            </Link>
           </div>
         </article>
       </main>
