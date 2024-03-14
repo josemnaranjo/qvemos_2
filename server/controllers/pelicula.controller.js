@@ -118,9 +118,12 @@ export const obtenerLasTresMejoresRecomendaciones = async (req, res) => {
       where: {
         evaluacionId: { [Op.not]: null },
       },
-      include: {
-        model: Evaluacion,
-      },
+      include: [
+        {
+          model: Evaluacion,
+        },
+        { model: Sesion },
+      ],
       order: [[Evaluacion, "puntuacion", "DESC"]],
     });
     const tresMejoresPeliculas = mejoresPeliculas.slice(0, 3);
