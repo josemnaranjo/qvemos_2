@@ -8,6 +8,14 @@ const TarjetaRecomendaciones = ({ title, rating, genre }) => {
     setImgSrc(movieInfo.results[0].backdrop_path);
   };
 
+  const transformNumberToStars = (number) => {
+    if (number === 1) return "⭐";
+    if (number === 2) return "⭐⭐";
+    if (number === 3) return "⭐⭐⭐";
+    if (number === 4) return "⭐⭐⭐⭐";
+    if (number === 5) return "⭐⭐⭐⭐⭐";
+  };
+
   useEffect(() => {
     handleGetImgSrc(title);
   }, []);
@@ -22,7 +30,7 @@ const TarjetaRecomendaciones = ({ title, rating, genre }) => {
         <span className="font-grotesk font-bold text-xl text-primary font-outline-2">
           {title}
         </span>
-        <span className="text-primary">{rating}</span>
+        <span className="text-primary">{transformNumberToStars(rating)}</span>
         <span className="font-grotesk font-bold text-body text-primary font-outline-1">
           {genre}
         </span>
