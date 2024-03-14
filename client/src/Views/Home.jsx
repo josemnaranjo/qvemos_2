@@ -49,8 +49,7 @@ const Home = () => {
                 <TarjetaRecomendaciones
                   key={r.id}
                   title={r.titulo}
-                  rating={r.rating}
-                  imgSrc={r.imgSrc}
+                  rating={r.Evaluacion.puntuacion}
                   genre={r.genre}
                 />
               );
