@@ -50,7 +50,7 @@ const Home = () => {
                   key={r.id}
                   title={r.titulo}
                   rating={r.Evaluacion.puntuacion}
-                  genre={r.genre}
+                  genre={r.Sesion.genero}
                 />
               );
             })}
