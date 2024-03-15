@@ -13,6 +13,7 @@ import Login from "./Views/Login.jsx";
 import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Reglas from "./Views/Reglas.jsx";
+import Buscador from "./Views/Buscador.jsx";
 import { UserProvider } from "./context/userContext.jsx";
 import ProtectedRoutes from "./utils/ProtectedRoutes.jsx";
 
@@ -36,6 +37,7 @@ function App() {
             path="/sala/:id/recomendaciones"
             element={<Recomendaciones />}
           />
+          <Route path="/buscador/:id" element={<Buscador />} />
           <Route path="/sala/:id/votacion" element={<Votacion />} />
           <Route
             path="/sala/:id/espera-votacion"
