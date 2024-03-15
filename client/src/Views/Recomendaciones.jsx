@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Formik, Form, Field } from "formik";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, Link } from "react-router-dom";
 import { obtenerSesion } from "../api/sesion.services";
 import { crearRecomendaciones } from "../api/peliculas.services";
 
@@ -87,9 +87,11 @@ const Recomendaciones = () => {
       <p className="mt-[8px] w-[432px] font-grotesk font-normal text-body text-center text-secondary ">
         ¿No recuerdas el nombre de la película?
       </p>
-      <p className="font-grotesk font-bold text-body text-secondary">
-        usa el buscador 🔍
-      </p>
+      <Link to={`/buscador/${id}`}>
+        <p className="font-grotesk font-bold text-body text-secondary hover:underline">
+          usa el buscador 🔍
+        </p>
+      </Link>
     </main>
   );
 };
