@@ -14,6 +14,7 @@ import Registrarse from "./Views/Registrarse.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Reglas from "./Views/Reglas.jsx";
 import Buscador from "./Views/Buscador.jsx";
+import MovieInfo from "./Views/MovieInfo.jsx";
 import { UserProvider } from "./context/userContext.jsx";
 import ProtectedRoutes from "./utils/ProtectedRoutes.jsx";
 
@@ -38,6 +39,8 @@ function App() {
             element={<Recomendaciones />}
           />
           <Route path="/buscador/:id" element={<Buscador />} />
+          <Route path="/buscador/:id/informacion" element={<MovieInfo />} />
+
           <Route path="/sala/:id/votacion" element={<Votacion />} />
           <Route
             path="/sala/:id/espera-votacion"
