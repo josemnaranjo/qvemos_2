@@ -5,11 +5,36 @@ import TitleMovieSearch from "../Components/TitleMovieSearch";
 
 const Buscador = () => {
   const titleMovies = [
-    { title: "Peli 1" },
-    { title: "La soledad de los numeros primos" },
-    { title: "Titanic" },
-    { title: "Volver al futuro 2" },
-    { title: "Peli 5" },
+    {
+      id: 1,
+      title: "Peli 1",
+      sinopsis:
+        "Lorem ipsum dolor sit amet consectetur. Ornare proin consequat quis phasellus. Quis orci in malesuada feugiat nisi tempus senectus at dictumst. Praesent non eget nisl eu vitae nibh tristique",
+    },
+    {
+      id: 2,
+      title: "La soledad de los numeros primos",
+      sinopsis:
+        "Lorem ipsum dolor sit amet consectetur. Ornare proin consequat quis phasellus. Quis orci in malesuada feugiat nisi tempus senectus at dictumst. Praesent non eget nisl eu vitae nibh tristique",
+    },
+    {
+      id: 3,
+      title: "Titanic",
+      sinopsis:
+        "Lorem ipsum dolor sit amet consectetur. Ornare proin consequat quis phasellus. Quis orci in malesuada feugiat nisi tempus senectus at dictumst. Praesent non eget nisl eu vitae nibh tristique",
+    },
+    {
+      id: 4,
+      title: "Volver al futuro 2",
+      sinopsis:
+        "Lorem ipsum dolor sit amet consectetur. Ornare proin consequat quis phasellus. Quis orci in malesuada feugiat nisi tempus senectus at dictumst. Praesent non eget nisl eu vitae nibh tristique",
+    },
+    {
+      id: 4,
+      title: "Peli 5",
+      sinopsis:
+        "Lorem ipsum dolor sit amet consectetur. Ornare proin consequat quis phasellus. Quis orci in malesuada feugiat nisi tempus senectus at dictumst. Praesent non eget nisl eu vitae nibh tristique",
+    },
   ];
   const { id } = useParams();
   const handleGetMovies = (query) => {
@@ -33,7 +58,7 @@ const Buscador = () => {
                 type="text"
                 name="pelicula"
                 placeholder="vovler al futuro..."
-                className="px-1 rounded-xl"
+                className="px-2 rounded-xl"
               />
               <button type="submit">
                 <GoSearch
@@ -46,9 +71,15 @@ const Buscador = () => {
           </Formik>
         </div>
       </article>
-      <article className="mt-[20px] bg-secondary w-[341px] h-[600px] rounded-xl">
-        <TitleMovieSearch movieTitles={titleMovies} />
-      </article>
+      {titleMovies?.map((movie) => {
+        return (
+          <article key={movie.id}>
+            <Link to="informacion" state={{ movie }}>
+              <TitleMovieSearch movieTitle={movie.title} />
+            </Link>
+          </article>
+        );
+      })}
     </main>
   );
 };
