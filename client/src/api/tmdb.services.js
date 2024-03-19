@@ -11,3 +11,12 @@ export const getOneMovie = async (movieTitle) => {
   });
   return res.data;
 };
+
+export const getMovieDirector = async (movieId) => {
+  const res = await axios.get(
+    `
+    https://api.themoviedb.org/3/movie/${movieId}/credits`,
+    { headers: { Authorization: `Bearer ${apiKey}` } }
+  );
+  return res.data
+};

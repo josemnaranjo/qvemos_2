@@ -1,12 +1,24 @@
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { getMovieDirector } from "../api/tmdb.services";
 
 const MovieInfo = () => {
   const location = useLocation();
   const { movie } = location.state;
-  console.log(movie);
+  const [directorName, setDirectorName] = useState("");
+  const handleGetDirector = async (movieId) => {
+    const data = await getMovieDirector(movieId);
+    const directorInfo = data.crew.filter(
+      (crew) => crew.known_for_department === "Directing"
+    );
+    setDirectorName(directorInfo[0].name);
+  };
+  useEffect(() => {
+    handleGetDirector(movie.id);
+  }, []);
   return (
     <main className="flex flex-col items-center">
-      <article className="mt-[40px] w-[340px] h-[680px] bg-secondary rounded-xl text-primary flex flex-col items-center">
+      <article className="mt-[40px] w-[340px]  bg-secondary rounded-xl text-primary flex flex-col items-center">
         <h1 className="mt-[40px] font-grotesk font-bold text-xl text-center">
           {movie.title}
         </h1>
@@ -14,7 +26,7 @@ const MovieInfo = () => {
           <h2 className="font-grotesk font-bold text-body">
             Director :{" "}
             <span className="font-grotesk font-light text-body">
-              Pedro Almodovar
+              {directorName}
             </span>
           </h2>
           <h2 className="font-grotesk font-bold text-body">Sinopsis :</h2>
