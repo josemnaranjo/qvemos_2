@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 const MovieInfo = () => {
   const location = useLocation();
   const { movie } = location.state;
+  console.log(movie);
   return (
     <main className="flex flex-col items-center">
       <article className="mt-[40px] w-[340px] h-[540px] bg-secondary rounded-xl text-primary flex flex-col items-center justify-around">
@@ -10,7 +11,7 @@ const MovieInfo = () => {
         <div className="flex flex-col gap-y-2">
           <p className="font-grotesk font-bold text-body">Sinopsis</p>
           <p className="w-[250px] font-grotesk font-light text-body">
-            {movie.sinopsis}
+            {movie.overview}
           </p>
         </div>
         <div className="w-[250px]">
