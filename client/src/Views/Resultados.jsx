@@ -9,11 +9,14 @@ const Resultados = () => {
   const [buyMovie, setBuyMovie] = useState();
   const [rentMovie, setRentMovie] = useState();
   const [streamMovie, setStreamMovie] = useState();
+  const [posterUrl, setPosterUrl] = useState();
 
   const handleGetResult = async () => {
     const response = await resultadosVotacion(id);
     setGanador(response.data);
     const movieInfo = await getOneMovie(response.data.titulo);
+    const posterData = movieInfo.results[0].poster_path;
+    setPosterUrl(posterData);
     const movieId = movieInfo.results[0].id;
     const movieProvidersData = await getMovieProviders(movieId);
     const movieProviders = movieProvidersData.results;
@@ -39,7 +42,7 @@ const Resultados = () => {
               {ganador?.titulo}
             </h1>
             <img
-              src="https://www.movieposters.com/cdn/shop/files/THING_5d1279a2-2e38-4ca0-8cb5-91f9b30b6ebb_480x.progressive.jpg?v=1693491676"
+              src={`https://image.tmdb.org/t/p/w300/${posterUrl}`}
               alt="poster image"
               className="mt-[22px] w-[167px] h-[253px]"
             />
