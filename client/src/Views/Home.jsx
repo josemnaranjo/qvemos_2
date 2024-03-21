@@ -8,7 +8,6 @@ const Home = () => {
 
   const fetchTopRecomendaciones = async () => {
     const recomendaciones = await obtenerLasTresMejoresRecomendaciones();
-    console.log(recomendaciones.data);
     setRecomendaciones(recomendaciones.data);
   };
 

@@ -5,7 +5,7 @@ const TarjetaRecomendaciones = ({ title, rating, genre }) => {
   const [imgSrc, setImgSrc] = useState();
   const handleGetImgSrc = async (title) => {
     const movieInfo = await getOneMovie(title);
-    setImgSrc(movieInfo.results[0].backdrop_path);
+    setImgSrc(movieInfo.results[0].poster_path);
   };
 
   const transformNumberToStars = (number) => {
@@ -24,7 +24,7 @@ const TarjetaRecomendaciones = ({ title, rating, genre }) => {
       <div
         className="w-[302px] h-[108px] flex flex-col items-center justify-center rounded-xl"
         style={{
-          backgroundImage: `url(https://image.tmdb.org/t/p/w500/${imgSrc})`,
+          backgroundImage: `url(https://image.tmdb.org/t/p/w300/${imgSrc})`,
         }}
       >
         <span className="font-grotesk font-bold text-xl text-primary font-outline-2">
