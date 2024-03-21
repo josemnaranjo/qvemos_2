@@ -1,0 +1,2683 @@
+{
+    "id": 24,
+    "results": {
+      "AE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=AE",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "AR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=AR",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/8U0SUpB5Jq6dW1N5cSo8EmJJtjL.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 64
+          },
+          {
+            "logo_path": "/iVZ6b9YR0O8ugGrbqIXclBlJra3.jpg",
+            "provider_id": 2051,
+            "provider_name": "MGM Apple TV Channel",
+            "display_priority": 69
+          }
+        ]
+      },
+      "AT": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=AT",
+        "buy": [
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/9lFSDdj10l7QAXyTZPDWuwkKJT3.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 14
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/9lFSDdj10l7QAXyTZPDWuwkKJT3.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 14
+          }
+        ]
+      },
+      "AU": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=AU",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 34
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/sSfxJXq7s8oHf3XWd0FtqagPDsF.jpg",
+            "provider_id": 21,
+            "provider_name": "Stan",
+            "display_priority": 9
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/cR4okiAS0zcXb4ufs3mi4PImXPB.jpg",
+            "provider_id": 132,
+            "provider_name": "SBS On Demand",
+            "display_priority": 21
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg",
+            "provider_id": 436,
+            "provider_name": "Fetch TV",
+            "display_priority": 34
+          }
+        ]
+      },
+      "AZ": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=AZ",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "BE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=BE",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 50
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 50
+          }
+        ]
+      },
+      "BG": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=BG",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          }
+        ]
+      },
+      "BO": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=BO",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ]
+      },
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=BR",
+        "flatrate": [
+          {
+            "logo_path": "/7Cg8esVVXOijXAm1f1vrS7jVjcN.jpg",
+            "provider_id": 307,
+            "provider_name": "Globoplay",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/8U0SUpB5Jq6dW1N5cSo8EmJJtjL.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 52
+          },
+          {
+            "logo_path": "/iVZ6b9YR0O8ugGrbqIXclBlJra3.jpg",
+            "provider_id": 2051,
+            "provider_name": "MGM Apple TV Channel",
+            "display_priority": 96
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          }
+        ]
+      },
+      "BZ": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=BZ",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CA": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CA",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/d1mUAhpJpxy0YMjwVOZ4lxAAbeT.jpg",
+            "provider_id": 140,
+            "provider_name": "Cineplex",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/d1mUAhpJpxy0YMjwVOZ4lxAAbeT.jpg",
+            "provider_id": 140,
+            "provider_name": "Cineplex",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 18
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 32
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 56
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg",
+            "provider_id": 8,
+            "provider_name": "Netflix",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/csPQMbeJWY7bjwWruZjtc27xf2l.jpg",
+            "provider_id": 305,
+            "provider_name": "Crave Starz",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/ovmu6uot1XVvsemM2dDySXLiX57.jpg",
+            "provider_id": 526,
+            "provider_name": "AMC+",
+            "display_priority": 92
+          },
+          {
+            "logo_path": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+            "provider_id": 1794,
+            "provider_name": "Starz Amazon Channel",
+            "display_priority": 109
+          },
+          {
+            "logo_path": "/kICQccvOh8AIBMHGkBXJ047xeHN.jpg",
+            "provider_id": 1796,
+            "provider_name": "Netflix basic with Ads",
+            "display_priority": 112
+          }
+        ]
+      },
+      "CH": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CH",
+        "rent": [
+          {
+            "logo_path": "/47klot430ytIqldQUUx2avN45Sr.jpg",
+            "provider_id": 150,
+            "provider_name": "blue TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 9
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/eBXzkFEupZjKaIKY7zBUaSdCY8I.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 42
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/47klot430ytIqldQUUx2avN45Sr.jpg",
+            "provider_id": 150,
+            "provider_name": "blue TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 9
+          }
+        ]
+      },
+      "CL": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CL",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/8U0SUpB5Jq6dW1N5cSo8EmJJtjL.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/iVZ6b9YR0O8ugGrbqIXclBlJra3.jpg",
+            "provider_id": 2051,
+            "provider_name": "MGM Apple TV Channel",
+            "display_priority": 43
+          }
+        ]
+      },
+      "CO": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CO",
+        "flatrate": [
+          {
+            "logo_path": "/8U0SUpB5Jq6dW1N5cSo8EmJJtjL.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 41
+          },
+          {
+            "logo_path": "/iVZ6b9YR0O8ugGrbqIXclBlJra3.jpg",
+            "provider_id": 2051,
+            "provider_name": "MGM Apple TV Channel",
+            "display_priority": 44
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ]
+      },
+      "CR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CR",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 23
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 23
+          }
+        ]
+      },
+      "CV": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CV",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 13
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 13
+          }
+        ]
+      },
+      "CY": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CY",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "CZ": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=CZ",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ]
+      },
+      "DE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=DE",
+        "flatrate": [
+          {
+            "logo_path": "/lrEigPPAhggq02q53uM8vdWAIUX.jpg",
+            "provider_id": 178,
+            "provider_name": "MagentaTV",
+            "display_priority": 24
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/9lFSDdj10l7QAXyTZPDWuwkKJT3.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/9lFSDdj10l7QAXyTZPDWuwkKJT3.jpg",
+            "provider_id": 20,
+            "provider_name": "maxdome Store",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 31
+          }
+        ]
+      },
+      "DK": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=DK",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 19
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 19
+          }
+        ]
+      },
+      "EC": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=EC",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/tRNA2CRgA4XHvd7Mx9dH3sFtDVb.jpg",
+            "provider_id": 339,
+            "provider_name": "MovistarTV",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 11
+          }
+        ]
+      },
+      "EE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=EE",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ]
+      },
+      "EG": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=EG",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 4
+          }
+        ]
+      },
+      "ES": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=ES",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 35
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 35
+          }
+        ]
+      },
+      "FI": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=FI",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 10
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 18
+          }
+        ]
+      },
+      "FR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=FR",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 46
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/eBXzkFEupZjKaIKY7zBUaSdCY8I.jpg",
+            "provider_id": 381,
+            "provider_name": "Canal+",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8qSG9LtUhBQIWy2Fr6fzeW7gBdd.jpg",
+            "provider_id": 1967,
+            "provider_name": "Molotov TV",
+            "display_priority": 107
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/9Fyo6njYvroAIxAzTBbLgnjgYga.jpg",
+            "provider_id": 61,
+            "provider_name": "Orange VOD",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/s7mg9n4UHrcdJQL78JmaU6oAdHt.jpg",
+            "provider_id": 59,
+            "provider_name": "Bbox VOD",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 46
+          }
+        ]
+      },
+      "GB": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=GB",
+        "flatrate": [
+          {
+            "logo_path": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg",
+            "provider_id": 194,
+            "provider_name": "Starz Play Amazon Channel",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/6AKbY2ayaEuH4zKg2prqoVQ9iaY.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 29
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/6AKbY2ayaEuH4zKg2prqoVQ9iaY.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 22
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 29
+          }
+        ],
+        "free": [
+          {
+            "logo_path": "/1LuvKw01c2KQCt6DqgAgR06H2pT.jpg",
+            "provider_id": 41,
+            "provider_name": "ITVX",
+            "display_priority": 20
+          }
+        ]
+      },
+      "GH": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=GH",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 17
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 17
+          }
+        ]
+      },
+      "GR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=GR",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "GT": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=GT",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 23
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 23
+          }
+        ]
+      },
+      "HK": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=HK",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 12
+          }
+        ]
+      },
+      "HN": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=HN",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ]
+      },
+      "ID": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=ID",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/9qSVItdgkVHH3Rrl9db2yRWsgBq.jpg",
+            "provider_id": 159,
+            "provider_name": "Catchplay",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/4P963etfZGzeJqqd6E8fj2OIUht.jpg",
+            "provider_id": 561,
+            "provider_name": "Lionsgate Play",
+            "display_priority": 38
+          }
+        ]
+      },
+      "IE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=IE",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/6AKbY2ayaEuH4zKg2prqoVQ9iaY.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 14
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/6AKbY2ayaEuH4zKg2prqoVQ9iaY.jpg",
+            "provider_id": 130,
+            "provider_name": "Sky Store",
+            "display_priority": 9
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 12
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 14
+          }
+        ]
+      },
+      "IL": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=IL",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 28
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 28
+          }
+        ]
+      },
+      "IN": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=IN",
+        "flatrate": [
+          {
+            "logo_path": "/4P963etfZGzeJqqd6E8fj2OIUht.jpg",
+            "provider_id": 561,
+            "provider_name": "Lionsgate Play",
+            "display_priority": 39
+          },
+          {
+            "logo_path": "/p8i1zUcZYQ7qU6RrGvGbDItvcx4.jpg",
+            "provider_id": 2053,
+            "provider_name": "Lionsgate Play Apple TV Channel",
+            "display_priority": 82
+          },
+          {
+            "logo_path": "/yVbjPWEbsStanRAxwKMDARVOvsn.jpg",
+            "provider_id": 2074,
+            "provider_name": "Lionsgate Play Amazon Channel",
+            "display_priority": 85
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 47
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ]
+      },
+      "IT": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=IT",
+        "buy": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 39
+          }
+        ]
+      },
+      "JP": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=JP",
+        "flatrate": [
+          {
+            "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg",
+            "provider_id": 15,
+            "provider_name": "Hulu",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 8
+          }
+        ]
+      },
+      "KR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=KR",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 7
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg",
+            "provider_id": 356,
+            "provider_name": "wavve",
+            "display_priority": 3
+          }
+        ]
+      },
+      "LT": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=LT",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ]
+      },
+      "LU": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=LU",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 0
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "LV": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=LV",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          }
+        ]
+      },
+      "MU": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=MU",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 15
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 15
+          }
+        ]
+      },
+      "MX": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=MX",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 11
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 17
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/8U0SUpB5Jq6dW1N5cSo8EmJJtjL.jpg",
+            "provider_id": 588,
+            "provider_name": "MGM Amazon Channel",
+            "display_priority": 44
+          },
+          {
+            "logo_path": "/iVZ6b9YR0O8ugGrbqIXclBlJra3.jpg",
+            "provider_id": 2051,
+            "provider_name": "MGM Apple TV Channel",
+            "display_priority": 88
+          }
+        ]
+      },
+      "MY": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=MY",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/4P963etfZGzeJqqd6E8fj2OIUht.jpg",
+            "provider_id": 561,
+            "provider_name": "Lionsgate Play",
+            "display_priority": 32
+          }
+        ]
+      },
+      "MZ": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=MZ",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 16
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 16
+          }
+        ]
+      },
+      "NI": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=NI",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      },
+      "NL": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=NL",
+        "flatrate": [
+          {
+            "logo_path": "/qN7uDYanT47WI0MmbwOr5HFFot.jpg",
+            "provider_id": 72,
+            "provider_name": "Videoland",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/nzjqsR28PVVp5GJAlHtbBArNKqN.jpg",
+            "provider_id": 563,
+            "provider_name": "KPN",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Pathé Thuis",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          },
+          {
+            "logo_path": "/651I5dLHpxDUePZcNkYTDcARTeE.jpg",
+            "provider_id": 697,
+            "provider_name": "meJane",
+            "display_priority": 47
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/lnOkJKyFl87mzqNebAbE8ADdHoB.jpg",
+            "provider_id": 71,
+            "provider_name": "Pathé Thuis",
+            "display_priority": 8
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 14
+          }
+        ]
+      },
+      "NO": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=NO",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 18
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 18
+          }
+        ]
+      },
+      "NZ": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=NZ",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 10
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 10
+          }
+        ]
+      },
+      "PE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=PE",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PH": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=PH",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "PL": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=PL",
+        "flatrate": [
+          {
+            "logo_path": "/eoWlEQTQDeEutDyfADhAQ0HKogI.jpg",
+            "provider_id": 250,
+            "provider_name": "Horizon",
+            "display_priority": 8
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 35
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 35
+          }
+        ]
+      },
+      "PT": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=PT",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          }
+        ]
+      },
+      "PY": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=PY",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 22
+          }
+        ]
+      },
+      "RO": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=RO",
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 19
+          }
+        ]
+      },
+      "RU": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=RU",
+        "ads": [
+          {
+            "logo_path": "/yyMxS08v80D96O7NtL9supa5sn7.jpg",
+            "provider_id": 557,
+            "provider_name": "More TV",
+            "display_priority": 16
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/51wuCkUdkEQTUtB8TrtZzzxp3Tj.jpg",
+            "provider_id": 117,
+            "provider_name": "Kinopoisk",
+            "display_priority": 23
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/51wuCkUdkEQTUtB8TrtZzzxp3Tj.jpg",
+            "provider_id": 117,
+            "provider_name": "Kinopoisk",
+            "display_priority": 23
+          }
+        ]
+      },
+      "SA": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=SA",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "SE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=SE",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 47
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/bZvc9dXrXNly7cA0V4D9pR8yJwm.jpg",
+            "provider_id": 35,
+            "provider_name": "Rakuten TV",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/sNmIwrniZZORvNJOmEuWGhwBJNf.jpg",
+            "provider_id": 426,
+            "provider_name": "SF Anytime",
+            "display_priority": 19
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 47
+          }
+        ]
+      },
+      "SG": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=SG",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ]
+      },
+      "SI": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=SI",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 31
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 31
+          }
+        ]
+      },
+      "SK": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=SK",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 6
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/fbveJTcro9Xw2KuPIIoPPePHiwy.jpg",
+            "provider_id": 701,
+            "provider_name": "FilmBox+",
+            "display_priority": 38
+          }
+        ]
+      },
+      "TH": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=TH",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          }
+        ]
+      },
+      "TR": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=TR",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 5
+          },
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 6
+          }
+        ]
+      },
+      "TW": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=TW",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 7
+          }
+        ]
+      },
+      "UA": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=UA",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=US",
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/nVzxU8EPk0aXqQkBZniVA2kat1I.jpg",
+            "provider_id": 7,
+            "provider_name": "Vudu",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/aAb9CUHjFe9Y3O57qnrJH0KOF1B.jpg",
+            "provider_id": 486,
+            "provider_name": "Spectrum On Demand",
+            "display_priority": 157
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 4
+          },
+          {
+            "logo_path": "/seGSXajazLMCKGB5hnRCidtjay1.jpg",
+            "provider_id": 10,
+            "provider_name": "Amazon Video",
+            "display_priority": 15
+          },
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 16
+          },
+          {
+            "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg",
+            "provider_id": 192,
+            "provider_name": "YouTube",
+            "display_priority": 17
+          },
+          {
+            "logo_path": "/nVzxU8EPk0aXqQkBZniVA2kat1I.jpg",
+            "provider_id": 7,
+            "provider_name": "Vudu",
+            "display_priority": 42
+          },
+          {
+            "logo_path": "/5vfrJQgNe9UnHVgVNAwZTy0Jo9o.jpg",
+            "provider_id": 68,
+            "provider_name": "Microsoft Store",
+            "display_priority": 53
+          },
+          {
+            "logo_path": "/1g3ULbVMEW8OVKOJymLvfboCrMv.jpg",
+            "provider_id": 352,
+            "provider_name": "AMC on Demand",
+            "display_priority": 124
+          }
+        ],
+        "flatrate": [
+          {
+            "logo_path": "/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg",
+            "provider_id": 350,
+            "provider_name": "Apple TV Plus",
+            "display_priority": 3
+          },
+          {
+            "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg",
+            "provider_id": 387,
+            "provider_name": "Peacock Premium",
+            "display_priority": 13
+          },
+          {
+            "logo_path": "/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg",
+            "provider_id": 1855,
+            "provider_name": "Starz Apple TV Channel",
+            "display_priority": 21
+          },
+          {
+            "logo_path": "/ovmu6uot1XVvsemM2dDySXLiX57.jpg",
+            "provider_id": 526,
+            "provider_name": "AMC+",
+            "display_priority": 35
+          }
+        ]
+      },
+      "VE": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=VE",
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ],
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 3
+          }
+        ]
+      },
+      "ZA": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=ZA",
+        "buy": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/9ghgSC0MA082EL6HLCW3GalykFD.jpg",
+            "provider_id": 2,
+            "provider_name": "Apple TV",
+            "display_priority": 2
+          }
+        ]
+      },
+      "ZW": {
+        "link": "https://www.themoviedb.org/movie/24-kill-bill-vol-1/watch?locale=ZW",
+        "buy": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ],
+        "rent": [
+          {
+            "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg",
+            "provider_id": 3,
+            "provider_name": "Google Play Movies",
+            "display_priority": 1
+          }
+        ]
+      }
+    }
+  }
