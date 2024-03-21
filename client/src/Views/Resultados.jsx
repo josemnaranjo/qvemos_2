@@ -1,14 +1,26 @@
 import { Link, useParams } from "react-router-dom";
 import { resultadosVotacion } from "../api/peliculas.services";
 import { useState, useEffect } from "react";
+import { getOneMovie, getMovieProviders } from "../api/tmdb.services";
 
 const Resultados = () => {
   const { id } = useParams();
   const [ganador, setGanador] = useState();
+  const [buyMovie, setBuyMovie] = useState();
+  const [rentMovie, setRentMovie] = useState();
+  const [streamMovie, setStreamMovie] = useState();
 
   const handleGetResult = async () => {
     const response = await resultadosVotacion(id);
     setGanador(response.data);
+    const movieInfo = await getOneMovie(response.data.titulo);
+    const movieId = movieInfo.results[0].id;
+    const movieProvidersData = await getMovieProviders(movieId);
+    const movieProviders = movieProvidersData.results;
+    const chileanProviders = movieProviders.CL;
+    setBuyMovie(chileanProviders.buy[0]);
+    setRentMovie(chileanProviders.rent[0]);
+    setStreamMovie(chileanProviders.flatrate[0]);
   };
 
   useEffect(() => {
@@ -35,7 +47,9 @@ const Resultados = () => {
         </div>
         <div className="mt-[32px] w-[342px] h-[62px] flex flex-col justify-center bg-secondary border-4 border-tertiary rounded-xl">
           <p className="font-grotesk font-medium text-body text-primary text-center">
-            puedes verla en: Amazon
+            puedes comprarla en: {buyMovie?.provider_name}
+            puedes arrendarla en: {rentMovie?.provider_name}
+            streaming: {streamMovie?.provider_name}
           </p>
         </div>
       </article>
