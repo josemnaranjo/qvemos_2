@@ -18,14 +18,21 @@ export const getMovieDirector = async (movieId) => {
     https://api.themoviedb.org/3/movie/${movieId}/credits`,
     { headers: { Authorization: `Bearer ${apiKey}` } }
   );
-  return res.data
+  return res.data;
 };
 
-export const getMovieProviders = async(movieId) => {
-    const res = await axios.get(
-        `
+export const getMovieProviders = async (movieId) => {
+  const res = await axios.get(
+    `
         https://api.themoviedb.org/3/movie/${movieId}/watch/providers`,
-        { headers: { Authorization: `Bearer ${apiKey}` } }
-      );
-      return res.data
-}
+    { headers: { Authorization: `Bearer ${apiKey}` } }
+  );
+  return res.data;
+};
+
+export const getOneMovieById = async (movieId) => {
+  const res = await axios.get(`https://api.themoviedb.org/3/movie/${movieId}`, {
+    headers: { Authorization: `Bearer ${apiKey}` },
+  });
+  return res.data;
+};

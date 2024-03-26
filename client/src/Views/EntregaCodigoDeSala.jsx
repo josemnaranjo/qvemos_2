@@ -1,9 +1,12 @@
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { actualizarPresenciaDeAnfitrion } from "../api/sesion.services";
+import { getOneMovieById } from "../api/tmdb.services";
 
 const EntregaCodigoDeSala = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [imgSrc, setImgSrc] = useState();
 
   const handleClick = async () => {
     const response = await actualizarPresenciaDeAnfitrion(id);
@@ -11,6 +14,22 @@ const EntregaCodigoDeSala = () => {
       navigate(`/sala/${id}/votacion`);
     }
   };
+
+  const handleGetMovieSrc = async () => {
+    const randomId = Math.random(300) * 100;
+    const randomIdCiel = Math.ceil(randomId);
+    try {
+      const movieData = await getOneMovieById(randomIdCiel);
+      setImgSrc(movieData.poster_path);
+    } catch (error) {
+      setImgSrc("/wt2TRBmFmBn5M5MBcPTwovlREaB.jpg");
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    handleGetMovieSrc();
+  }, []);
 
   return (
     <main className="flex flex-col items-center">
@@ -28,7 +47,7 @@ const EntregaCodigoDeSala = () => {
           Espera a que los invitados hagan sus recomendaciones
         </p>
         <img
-          src="https://www.movieposters.com/cdn/shop/files/killers-of-the-flower-moon_ade3kdop_480x.progressive.jpg?v=1700081261"
+          src={`https://image.tmdb.org/t/p/w400/${imgSrc}`}
           alt="movie poster"
           className="mt-[8px] w-[342px] h-[180px] rounded-xl object-none object-top"
         />
