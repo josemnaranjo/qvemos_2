@@ -1,11 +1,29 @@
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Formik, Form, Field } from "formik";
+import { getOneMovieById } from "../api/tmdb.services";
 
 const UnirseASala = () => {
   const navigate = useNavigate();
+  const [imgSrc, setImgSrc] = useState();
   const handleSubmit = (salaId) => {
     navigate(`/sala/${salaId}/recomendaciones`);
   };
+  const handleGetMovieSrc = async () => {
+    const randomId = Math.random(300) * 100;
+    const randomIdCiel = Math.ceil(randomId);
+    try {
+      const movieData = await getOneMovieById(randomIdCiel);
+      setImgSrc(movieData.poster_path);
+    } catch (error) {
+      setImgSrc("/wt2TRBmFmBn5M5MBcPTwovlREaB.jpg");
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    handleGetMovieSrc();
+  }, []);
   return (
     <main className="flex flex-col items-center">
       <h1 className="w-[342px] h-[72px] mt-[10px] font-grotesk font-bold text-lg text-tertiary text-center flex flex-col">
@@ -42,7 +60,7 @@ const UnirseASala = () => {
         </Form>
       </Formik>
       <img
-        src="https://www.movieposters.com/cdn/shop/files/killers-of-the-flower-moon_ade3kdop_480x.progressive.jpg?v=1700081261"
+        src={`https://image.tmdb.org/t/p/w400/${imgSrc}`}
         alt="movie poster"
         className="mt-[8px] w-[342px] h-[180px] rounded-xl object-none object-top"
       />
